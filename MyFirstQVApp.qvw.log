@@ -1,0 +1,129 @@
+﻿2017-02-21 07:53:19      Execution started.
+2017-02-21 07:53:19      QlikView Desktop Version      12.10.20100+2017-02-16 09:28:18.HEAD.Component.Version
+2017-02-21 07:53:19      CPU Target                    x64
+2017-02-21 07:53:19      Operating System              Windows 7 Enterprise Service Pack 1 (64 bit edition)
+2017-02-21 07:53:19      Wow64 mode                    Not using Wow64
+2017-02-21 07:53:19      Language                      0409 English (United States) English
+2017-02-21 07:53:19      Country                       1 United States United States
+2017-02-21 07:53:19      MDAC Version                  6.1.7601.17514
+2017-02-21 07:53:19      MDAC Full Install Version     6.1.7601.17514
+2017-02-21 07:53:19      PreferredCompression          2
+2017-02-21 07:53:19      EnableParallelReload          1
+2017-02-21 07:53:19      ParallelizeQvdLoads           1
+2017-02-21 07:53:19      AutoSaveAfterReload           0
+2017-02-21 07:53:19      BackupBeforeReload            0
+2017-02-21 07:53:19      EnableFlushLog                0
+2017-02-21 07:53:19      SaveInfoWhenSavingFile        0
+2017-02-21 07:53:19      UserLogfileCharset            65001
+2017-02-21 07:53:19      OdbcLoginTimeout              -1
+2017-02-21 07:53:19      OdbcConnectionTimeout         -1
+2017-02-21 07:53:19      LongestPossibleLine           1048576
+2017-02-21 07:53:19      MaxCoreMask                   -1
+2017-02-21 07:53:19      ScriptWantsDbWrite            false
+2017-02-21 07:53:19      ScriptWantsExe                false
+2017-02-21 07:53:19      LogFile CodePage Used:        65001
+2017-02-21 07:53:19      UseMemoryFillPattern          1
+2017-02-21 07:53:19      ScriptMode                    Legacy (gives greater system access) (aka qv11 mode)
+2017-02-21 07:53:19      SequentialThreadCount         1259
+2017-02-21 07:53:19      NumberOfCores (effective)     4
+2017-02-21 07:53:19      ReloadCodebase                Classic
+2017-02-21 07:53:20      Reload Executed By            US\tweatherall
+2017-02-21 07:53:20      Process Executing             QlikView Desktop
+2017-02-21 07:53:20      Process ID                    15956
+2017-02-21 07:53:20 0002 SET ThousandSep=','
+2017-02-21 07:53:20 0003 SET DecimalSep='.'
+2017-02-21 07:53:20 0004 SET MoneyThousandSep=','
+2017-02-21 07:53:20 0005 SET MoneyDecimalSep='.'
+2017-02-21 07:53:20 0006 SET MoneyFormat='$#,##0.00;($#,##0.00)'
+2017-02-21 07:53:20 0007 SET TimeFormat='h:mm:ss TT'
+2017-02-21 07:53:20 0008 SET DateFormat='M/D/YYYY'
+2017-02-21 07:53:20 0009 SET TimestampFormat='M/D/YYYY h:mm:ss[.fff] TT'
+2017-02-21 07:53:20 0010 SET FirstWeekDay=6
+2017-02-21 07:53:20 0011 SET BrokenWeeks=1
+2017-02-21 07:53:20 0012 SET ReferenceDay=0
+2017-02-21 07:53:20 0013 SET FirstMonthOfYear=1
+2017-02-21 07:53:20 0014 SET CollationLocale='en-US'
+2017-02-21 07:53:20 0015 SET MonthNames='Jan;Feb;Mar;Apr;May;Jun;Jul;Aug;Sep;Oct;Nov;Dec'
+2017-02-21 07:53:20 0016 SET LongMonthNames='January;February;March;April;May;June;July;August;September;October;November;December'
+2017-02-21 07:53:20 0017 SET DayNames='Mon;Tue;Wed;Thu;Fri;Sat;Sun'
+2017-02-21 07:53:20 0018 SET LongDayNames='Monday;Tuesday;Wednesday;Thursday;Friday;Saturday;Sunday'
+2017-02-21 07:53:20 0020 Customers:
+2017-02-21 07:53:20 0021 LOAD [Address Number], 
+2017-02-21 07:53:20 0022      [Business Family], 
+2017-02-21 07:53:20 0023      [Business Unit], 
+2017-02-21 07:53:20 0024      Customer, 
+2017-02-21 07:53:20 0025      [Customer Number] as CustKey, 
+2017-02-21 07:53:20 0026      [Customer Type], 
+2017-02-21 07:53:20 0027      Division, 
+2017-02-21 07:53:20 0028      [Line of Business], 
+2017-02-21 07:53:20 0029      Phone, 
+2017-02-21 07:53:20 0030      [Region Code], 
+2017-02-21 07:53:20 0031      [Regional Sales Mgr], 
+2017-02-21 07:53:20 0032      [Search Type]
+2017-02-21 07:53:20 0033 FROM
+2017-02-21 07:53:20 0034 [C:\Users\tweatherall\Desktop\Qlikview\Participant Materials\Exercise Data\DATA\CUSTOMERS.xls]
+2017-02-21 07:53:20 0035 (biff, embedded labels, table is CUSTOMERS$)
+2017-02-21 07:53:20      	12 fields found: Address Number, Business Family, Business Unit, Customer, CustKey, Customer Type, Division, Line of Business, Phone, Region Code, Regional Sales Mgr, Search Type, 
+2017-02-21 07:53:20      684 lines fetched
+2017-02-21 07:53:20 0039 CustomerAddress:
+2017-02-21 07:53:20 0040 LOAD [Address Number], 
+2017-02-21 07:53:20 0041      City, 
+2017-02-21 07:53:20 0042      Country, 
+2017-02-21 07:53:20 0043      [Customer Address 1], 
+2017-02-21 07:53:20 0044      [Customer Address 2], 
+2017-02-21 07:53:20 0045      [Customer Address 3], 
+2017-02-21 07:53:20 0046      [Customer Address 4], 
+2017-02-21 07:53:20 0047      State, 
+2017-02-21 07:53:20 0048      [Zip Code]
+2017-02-21 07:53:20 0049 FROM
+2017-02-21 07:53:20 0050 [C:\Users\tweatherall\Desktop\Qlikview\Participant Materials\Exercise Data\DATA\CUSTOMERADDRESS.xls]
+2017-02-21 07:53:20 0051 (biff, embedded labels, table is CUSTOMERADDRESS$)
+2017-02-21 07:53:20      	9 fields found: Address Number, City, Country, Customer Address 1, Customer Address 2, Customer Address 3, Customer Address 4, State, Zip Code, 
+2017-02-21 07:53:20      455 lines fetched
+2017-02-21 07:53:20 0054 Region:
+2017-02-21 07:53:20 0055 LOAD Region as [Region Code], 
+2017-02-21 07:53:20 0056      [Region Name]
+2017-02-21 07:53:20 0057 FROM
+2017-02-21 07:53:20 0058 [C:\Users\tweatherall\Desktop\Qlikview\Participant Materials\Exercise Data\DATA\REGION.xls]
+2017-02-21 07:53:20 0059 (biff, embedded labels, table is REGION$)
+2017-02-21 07:53:20      	2 fields found: Region Code, Region Name, 
+2017-02-21 07:53:20      6 lines fetched
+2017-02-21 07:53:20 0062 Divisions:
+2017-02-21 07:53:20 0063 LOAD Division, 
+2017-02-21 07:53:20 0064      [Division Name]
+2017-02-21 07:53:20 0065 FROM
+2017-02-21 07:53:20 0066 [C:\Users\tweatherall\Desktop\Qlikview\Participant Materials\Exercise Data\DATA\DIVISION.xls]
+2017-02-21 07:53:20 0067 (biff, embedded labels, table is DIVISION$)
+2017-02-21 07:53:20      	2 fields found: Division, Division Name, 
+2017-02-21 07:53:20      2 lines fetched
+2017-02-21 07:53:20 0070 Sales:
+2017-02-21 07:53:20 0071 LOAD [Actual Delivery Date], 
+2017-02-21 07:53:20 0072      CustKey, 
+2017-02-21 07:53:20 0073      DateKey, 
+2017-02-21 07:53:20 0074      [Discount Amount], 
+2017-02-21 07:53:20 0075      [Invoice Date], 
+2017-02-21 07:53:20 0076      Year([Invoice Date]) as Year,
+2017-02-21 07:53:20 0077      Month([Invoice Date]) as Month,
+2017-02-21 07:53:20 0078      'Q' & Ceil(Month([Invoice Date])/3) as Qtr,
+2017-02-21 07:53:20 0079      [Invoice Number], 
+2017-02-21 07:53:20 0080      [Item Class], 
+2017-02-21 07:53:20 0081      [Item Number], 
+2017-02-21 07:53:20 0082      Item, 
+2017-02-21 07:53:20 0083      [Line Number], 
+2017-02-21 07:53:20 0084      [List Price], 
+2017-02-21 07:53:20 0085      [Order Number], 
+2017-02-21 07:53:20 0086      [Promised Delivery Date], 
+2017-02-21 07:53:20 0087      Revenue, 
+2017-02-21 07:53:20 0088      [Sales Amount Based on List Price], 
+2017-02-21 07:53:20 0089      Cost, 
+2017-02-21 07:53:20 0090      Margin, 
+2017-02-21 07:53:20 0091      [Sales Price], 
+2017-02-21 07:53:20 0092      Quantity, 
+2017-02-21 07:53:20 0093      [Sales Rep], 
+2017-02-21 07:53:20 0094      [U/M]
+2017-02-21 07:53:20 0095 FROM
+2017-02-21 07:53:20 0096 [C:\Users\tweatherall\Desktop\Qlikview\Participant Materials\Exercise Data\DATA\SALESDATA.xls]
+2017-02-21 07:53:20 0097 (biff, embedded labels, table is Sheet1$)
+2017-02-21 07:53:20      	24 fields found: Actual Delivery Date, CustKey, DateKey, Discount Amount, Invoice Date, Year, Month, Qtr, Invoice Number, Item Class, Item Number, Item, Line Number, List Price, Order Number, Promised Delivery Date, Revenue, Sales Amount Based on List Price, Cost, Margin, Sales Price, Quantity, Sales Rep, U/M, 
+2017-02-21 07:53:20      65,535 lines fetched
+2017-02-21 07:53:20      Execution finished.
